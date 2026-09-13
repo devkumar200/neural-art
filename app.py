@@ -34,7 +34,7 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 encoder = VGGEncoder('utils/vgg_normalised.pth').to(device)
 decoder = Decoder().to(device)
-decoder.load_state_dict(torch.load('experiment\\big_dataset\\decoder_65.pth',map_location=device))
+decoder.load_state_dict(torch.load('experiment/big_dataset/decoder_65.pth',map_location=device))
 
 encoder.eval()
 decoder.eval()
