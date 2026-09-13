@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Uploaded images
+static/uploads/
+
+# Training checkpoints and outputs
+experiment/big_dataset/optimizer_*.pth
+experiment/big_dataset/decoder_*.pth
+experiment/big_dataset/output_*.png
+
+# Keep final trained decoder
+!experiment/big_dataset/decoder_65.pth
