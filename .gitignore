@@ -11,6 +11,16 @@ env/
 # Uploaded images
 static/uploads/
 
+# Datasets
+content_data/
+style_data/
+
+# Old experiments
+experiment/big_dataset/args.txt
+experiment/experiment1/
+experiment/trail2/
+experiment/trial1/
+
 # Training checkpoints and outputs
 experiment/big_dataset/optimizer_*.pth
 experiment/big_dataset/decoder_*.pth
